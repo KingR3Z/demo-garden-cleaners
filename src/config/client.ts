@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Kate Cooper", rating: 5, text: "Contacted Garden Cleaners after a recommendation from a friend and I can see why they were so highly rated. Excellent communication, fair price, and the garden looks incredible. Thank you!", date: "a year ago" },
+    { name: "Owen S.", rating: 5, text: "After getting several quotes, we went with Garden Cleaners and it was the best decision. Not the cheapest, but the quality of work is in a different league. Professional, reliable, and the results are gorgeous.", date: "6 months ago" },
+    { name: "Luke Harvey", rating: 5, text: "We found Garden Cleaners online and after reading about their work, decided to give them a call. So glad we did — the garden has been completely transformed. Professional from start to finish.", date: "3 years ago" },
+    { name: "Liam James", rating: 5, text: "Cannot recommend Garden Cleaners highly enough. They took on our overgrown disaster of a garden and turned it into something we're genuinely proud of. Fair pricing, honest advice, and brilliant craftsmanship throughout.", date: "8 months ago" },
+    { name: "Mark C.", rating: 5, text: "Just had Garden Cleaners finish our garden project in Eastbourne. What a difference! The team were lovely to have around — respectful of our property, cleaned up after themselves, and produced an amazing result.", date: "a year ago" },
+    { name: "Charlie M.", rating: 5, text: "Used Garden Cleaners for landscaping work at our property in Eastbourne. The team were friendly, professional and clearly know their trade inside out. The finished result exceeded what we'd imagined. Will definitely be using them again.", date: "2 years ago" },
+    { name: "Ethan W.", rating: 5, text: "Really impressed with Garden Cleaners. They came out, assessed what we needed, gave us honest advice about what would work best, and then delivered a fantastic result. No hard sell, just good honest work.", date: "6 months ago" },
+    { name: "Rosie Mitchell", rating: 5, text: "Absolutely delighted with the work Garden Cleaners did on our garden. From the initial consultation to the finished result, everything was handled professionally. The team were punctual, tidy, and the quality of workmanship was outstanding. Our ne...", date: "3 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
